@@ -8,9 +8,10 @@ using BPE.EntityFrameworkCore;
 namespace BPE.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(BPEDbContext))]
-    partial class BPEDbContextModelSnapshot : ModelSnapshot
+    [Migration("20160804195020_NewFields")]
+    partial class NewFields
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
