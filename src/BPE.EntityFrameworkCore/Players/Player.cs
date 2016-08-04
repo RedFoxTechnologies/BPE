@@ -16,5 +16,6 @@ namespace BPE.Players
         public string FirstName { set; get; }
         public int LoginCount { set; get; }
         public DateTime? BirthdayDate { set; get; }
+        public bool? IsActive { set; get; }
     }
 }
